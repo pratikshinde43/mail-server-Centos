@@ -1,0 +1,9 @@
+user = root
+password = Dyna@123
+hosts = localhost
+dbname = mail
+table = mailbox
+select_field = quota
+where_field = username
+additional_conditions = and active = '1'
+#query = SELECT quota FROM mailbox WHERE username='%s' AND active = '1'

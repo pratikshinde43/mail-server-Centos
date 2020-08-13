@@ -1,0 +1,9 @@
+user = root
+password = Dyna@123
+hosts = localhost
+dbname = mail
+table = domain
+select_field = domain
+where_field = domain
+additional_conditions = and backupmx = '0' and active = '1'
+#query = SELECT domain FROM domain WHERE domain='%s' AND backupmx = '0' AND active = '1'
